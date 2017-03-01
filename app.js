@@ -1,4 +1,5 @@
 'use strict';
+const conf = require('./conf.json');
 const messages = require('./controllers/messages');
 const compress = require('koa-compress');
 const logger = require('koa-logger');
@@ -25,6 +26,6 @@ app.use(serve(path.join(__dirname, 'public')));
 app.use(compress());
 
 if (!module.parent) {
-  app.listen(3000);
-  console.log('listening on port 3000');
+  app.listen(conf.port);
+    console.log('listening on port '+conf.port);
 }
