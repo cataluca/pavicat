@@ -1,0 +1,7 @@
+*~
+*.swp
+*.swo
+node_modules
+ejs_error.js
+ejs_syntax_error.js
+jar
