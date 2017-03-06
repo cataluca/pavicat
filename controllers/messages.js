@@ -7,6 +7,10 @@ const render = views(__dirname + '/../views', {
 });
 
 module.exports.home = function *home(ctx) {
-    var view = yield render('index');
-    this.body = yield render('layout', { title: "home", body: view });
+  var view = yield render('index');
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimentazioni in calcestruzzo e resina - Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni industriali, pavimentazioni in resisa, rampe veicolari, pavimenti stampati. Opera in Torino, provincia e nel resto del nord Italia",
+				       cl: "home",
+				       id: "home",
+				       body: view });
 };

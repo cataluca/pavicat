@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title><%= title %></title>
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-</head>
-<body>
-  <%- body %>
-</body>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="luca">
+    <title><%= title %></title>
+    <meta name="keywords" content="pavimentazioni, calcestruzzo, resina, rampe, pavimenti, stampati, torino, milano">
+    <meta name="description" content="<%= description %>">
+
+    <!-- favicon -->
+    <link rel="icon" href="image/favicon.png" type="image/png" />
+    
+    <!-- Bootstrap -->
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:300,500" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/Pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="/assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="/assets/css/owl.theme.css" rel="stylesheet">
+    <link href="/assets/css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <!-- Analytics -->
+    <script src="/js/googleAnalytics.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="/assets/plugins/html5shiv.min.js"></script>
+      <script src="/assets/plugins/respond.min.js"></script>
+    <![endif]-->  
+  </head>
+  <body id="<%= id %>" class="<%= cl %>">
+    <%- body %>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/assets/plugins/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/plugins/parallax.min.js"></script>
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/plugins/jquery.easing.js"></script>
+    <script src="/assets/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/plugins/isotope.pkgd.min.js"></script>
+    <script src="/assets/plugins/owl.carousel.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
+  </body>
 </html>
