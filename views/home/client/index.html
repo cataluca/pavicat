@@ -3,48 +3,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+        <div class="section-title">
+          <h2>Alcuni dei nostri clienti</h2>
+        </div>
+      </div><!-- .col-md-12 -->
+    </div><!-- .row -->
+    <div class="row">
+    <div class="row">
+      <div class="col-md-12">
         <div id="slider-thumbnail" class="owl-carousel owl-theme client-slider slider-carousel navigation-hide">
-          <div class="item">
+	  <% clients.client.forEach(function(client){ %>
+	  <div class="item">
             <a href="#">
-              <img src="assets/img/img-client-01.png" alt="client">
+              <img src="/image/home/client/<%= client.img %>" alt="<%= client.title %>">
             </a>
           </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-02.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-03.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-04.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-05.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-06.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-07.png" alt="client">
-            </a>
-          </div><!-- .item -->
-          <div class="item">
-            <a href="#">
-              <img src="assets/img/img-client-08.png" alt="client">
-            </a>
-          </div><!-- .item -->
-        </div><!-- #slider-thumbnail -->
+          <% }); %>
+	</div><!-- #slider-thumbnail -->
       </div><!-- .col-md-12 -->
     </div><!-- .row -->
   </div><!-- .container -->

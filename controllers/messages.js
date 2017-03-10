@@ -27,7 +27,16 @@ module.exports.home = function *home(ctx) {
     {"img":"stampato1.jpg","type":"stampati","title":"Pavimento stampato"},
     {"img":"stampato2.jpg","type":"stampati","title":"Pavimento stampato"}
   ]}
-  var view = yield render('index',{ works:works });
+  var clients = {"client":[
+    {"img":"fca.jpg","title":"fca"},
+    {"img":"carrefour.jpg","title":"carrefour"},
+    {"img":"bricoman.jpg","title":"bricoman"},
+    {"img":"selghis.jpg","title":"selghis"},
+    {"img":"edilcalce.jpg","title":"edilcalce"},
+    {"img":"lidl.jpg","title":"lidl"},
+    {"img":"unical.jpg","title":"unical"}
+  ]}
+  var view = yield render('index',{ works:works, clients: clients });
   this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimentazioni in calcestruzzo e resina - Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni industriali, pavimentazioni in resisa, rampe veicolari, pavimenti stampati. Opera in Torino, provincia e nel resto del nord Italia",
 				       cl: "home",
