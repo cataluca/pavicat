@@ -25,7 +25,10 @@ module.exports.home = function *home(ctx) {
     {"img":"resina3.jpg","type":"resina","title":"Pavimento in resina"},
     {"img":"resina4.jpg","type":"resina","title":"Pavimento in resina"},
     {"img":"stampato1.jpg","type":"stampati","title":"Pavimento stampato"},
-    {"img":"stampato2.jpg","type":"stampati","title":"Pavimento stampato"}
+    {"img":"stampato2.jpg","type":"stampati","title":"Pavimento stampato"},
+    {"img":"acidificato1.jpg","type":"acidificato","title":"Pavimento acidificato"},
+    {"img":"acidificato2.jpg","type":"acidificato","title":"Pavimento acidificato"},
+    {"img":"acidificato3.jpg","type":"acidificato","title":"Pavimento acidificato"}
   ]}
   var clients = {"client":[
     {"img":"fca.jpg","title":"fca"},
@@ -38,7 +41,7 @@ module.exports.home = function *home(ctx) {
   ]}
   var view = yield render('index',{ works:works, clients: clients });
   this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimentazioni in calcestruzzo e resina - Torino, Milano e nord Italia", 
-				       description: "Leader nel settore delle pavimentazioni industriali, pavimentazioni in resisa, rampe veicolari, pavimenti stampati. Opera in Torino, provincia e nel resto del nord Italia",
+				       description: "Leader nel settore delle pavimentazioni industriali, pavimenti in resisa, rampe veicolari, pavimenti stampati e pavimenti acidificati. Opera in Torino, provincia e nel resto del nord Italia",
 				       cl: "home",
 				       id: "home",
 				       body: view });
