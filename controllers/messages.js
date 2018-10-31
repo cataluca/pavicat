@@ -40,7 +40,7 @@ module.exports.home = function *home(ctx) {
     {"img":"unical.jpg","title":"unical"}
   ]}
   var view = yield render('index',{ works:works, clients: clients });
-  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimentazioni industriali e rampe in calcestruzzo e resina - Torino, Milano e nord Italia", 
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti industriali e rampe in calcestruzzo e resina - Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni industriali in calcestruzzo, pavimenti in resina, rampe veicolari, pavimenti stampati e pavimenti acidificati. Opera in Torino, provincia e nel resto del nord Italia",
 				       cl: "home",
 				       id: "home",
