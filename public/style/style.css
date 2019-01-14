@@ -4,6 +4,6 @@
 .home .info-home {
   color: #000;
 }
-.site-branding .site-title.title-image.logo img {
-    max-height: 35px;
+.site-branding .site-title.title-image img {
+  max-height: 50px;
 }
