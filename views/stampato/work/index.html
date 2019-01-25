@@ -1,0 +1,23 @@
+<!-- begin:work -->
+<div id="work" class="work content-section bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2>Alcuni dei nostri lavori</h2>
+        </div>
+      </div><!-- .col-md-12 -->
+    </div><!-- .row -->
+
+    <div class="row">
+      <div class="col-md-12">
+	<ul class="work-grid">
+	  <% works.work.forEach(function(work) { %>
+	     <% include oneWork.html %>
+	  <% }); %>
+        </ul><!-- .work-grid -->
+      </div><!-- .col-md-12 -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</div><!-- #work -->
+<!-- end:work -->

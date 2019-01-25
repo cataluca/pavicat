@@ -45,10 +45,28 @@ module.exports.home = function *home(ctx) {
     {"img":"lidl.jpg","title":"lidl"},
     {"img":"unical.jpg","title":"unical"}
   ]}
-  var view = yield render('index',{ works:works, clients: clients });
+  var view = yield render('index',{ works:works, clients:clients });
   this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti e rampe in cemento armato, resina e stampati - Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni in calcestruzzo, pavimenti in resina, rampe veicolari, pavimenti stampati e pavimenti acidificati. Opera in Torino, provincia e nel resto del nord Italia",
 				       cl: "home",
 				       id: "home",
+				       body: view });
+};
+
+
+module.exports.stampato = function *stampato(ctx) {
+  var works = { "work":[
+    {"img":"Stampato1-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"},
+    {"img":"Stampato2-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"},
+    {"img":"Stampato3-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"},
+    {"img":"Stampato4-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"},
+    {"img":"Stampato5-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"},
+    {"img":"Stampato6-830x620.jpg","type":"stampati","title":"Pavimento in cemento stampato"}
+  ]}
+  var view = yield render('stampato',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento stampato a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni in cemento stampato",
+				       cl: "stampato",
+				       id: "stampato",
 				       body: view });
 };

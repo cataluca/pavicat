@@ -1,9 +1,18 @@
-.service.content-section {
+.home .service.content-section {
   padding: 30px 0px 20px 0px;
 }
 .home .info-home {
   color: #000;
 }
-.site-branding .site-title.title-image img {
+.home .site-branding .site-title.title-image img {
   max-height: 50px;
+}
+.home .work-item.pav .work-item-image {
+  border: 5px solid #fff;
+}
+a {
+  color: #000;
+}
+a :hover {
+  color: #0096ce;
 }
