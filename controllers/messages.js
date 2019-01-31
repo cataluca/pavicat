@@ -66,7 +66,7 @@ module.exports.stampato = function *stampato(ctx) {
   var view = yield render('stampato',{works:works});
   this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento stampato a Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni in cemento stampato",
-				       cl: "stampato",
+				       cl: "home",
 				       id: "stampato",
 				       body: view });
 };
