@@ -12,9 +12,19 @@
     max-height: 30px;
   }
 }
-a {
+.blog-entry a {
   color: #000;
 }
-a :hover {
-  color: #0096ce;
+.blog-entry h2 {
+  color: #000;
+}
+.blog-entry:hover a {
+  color: #000;
+  text-decoration: underline;
+}
+.blog-entry:hover h2 {
+  color: #000;
+}
+.blog-entry:hover p {
+  color: #000;
 }
