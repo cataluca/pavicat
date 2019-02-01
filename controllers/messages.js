@@ -87,3 +87,17 @@ module.exports.tradizionale = function *tradizionale(ctx) {
 				       id: "tradizionale",
 				       body: view });
 };
+
+module.exports.acidificato = function *acidificato(ctx) {
+  var works = { "work":[
+    {"img":"acidificato1.jpg","type":"acidificato","title":"Pavimento acidificato"},
+    {"img":"acidificato2.jpg","type":"acidificato","title":"Pavimento acidificato"},
+    {"img":"acidificato3.jpg","type":"acidificato","title":"Pavimento acidificato"}
+  ]}
+  var view = yield render('acidificato',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento acidificato a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni in calcestruzzo acidificato mediante l’utilizzo di particolari acidi a base di sali metallici",
+				       cl: "home",
+				       id: "acidificato",
+				       body: view });
+};
