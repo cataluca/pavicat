@@ -101,3 +101,17 @@ module.exports.acidificato = function *acidificato(ctx) {
 				       id: "acidificato",
 				       body: view });
 };
+
+module.exports.sassolavato = function *sassolavato(ctx) {
+  var works = { "work":[
+    {"img":"lavato1.jpg","type":"lavato","title":"Pavimento in sasso lavato"},
+    {"img":"lavato2.jpg","type":"lavato","title":"Pavimento in sasso lavato"},
+    {"img":"lavato4.jpg","type":"lavato","title":"Pavimento in sasso lavato"}
+  ]}
+  var view = yield render('sassolavato',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento sassolavato a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni in calcestruzzo sassolavato",
+				       cl: "home",
+				       id: "sassolavato",
+				       body: view });
+};
