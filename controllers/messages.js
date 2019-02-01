@@ -71,7 +71,7 @@ module.exports.stampato = function *stampato(ctx) {
 				       body: view });
 };
 
-module.exports.stampato = function *tradizionale(ctx) {
+module.exports.tradizionale = function *tradizionale(ctx) {
   var works = { "work":[
     {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
     {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
