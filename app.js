@@ -13,7 +13,10 @@ const app = module.exports = koa();
 app.use(logger());
 
 app.use(route.get('/', messages.home));
-app.use(route.get('/pavimento-stampato', messages.stampato));
+app.use(route.get('/pavimento-stampato', messages.stampato)); // old
+app.use(route.get('/pavimento-cemento-stampato', messages.stampato));
+app.use(route.get('/pavimento-cemento-tradizionale', messages.tradizionale));
+
 // app.use(route.get('/messages', messages.list));
 // app.use(route.get('/messages/:id', messages.fetch));
 // app.use(route.post('/messages', messages.create));

@@ -8,12 +8,12 @@ const render = views(__dirname + '/../views', {
 
 module.exports.home = function *home(ctx) {
   var works = { "work":[
-    {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
-    {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
-    {"img":"PavCemento3-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
-    {"img":"PavCemento4-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
-    {"img":"PavCemento5-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
-    {"img":"PavCemento6-830x620.jpg","type":"pav","title":"Pavimento in cemento armato"},
+    {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento3-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento4-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento5-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento6-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
     {"img":"Rampa1-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
     {"img":"Rampa2-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
     {"img":"Rampa3-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
@@ -46,8 +46,8 @@ module.exports.home = function *home(ctx) {
     {"img":"unical.jpg","title":"unical"}
   ]}
   var view = yield render('index',{ works:works, clients:clients });
-  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti e rampe in cemento armato, resina e stampati - Torino, Milano e nord Italia", 
-				       description: "Leader nel settore delle pavimentazioni in calcestruzzo, pavimenti in resina, rampe veicolari, pavimenti stampati e pavimenti acidificati. Opera in Torino, provincia e nel resto del nord Italia",
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti e rampe in cemento tradizionale, cemento stampato e in resina - Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni e rampe veicolari in calcestruzzo tradizionale, stampato, acidificato e in resina. Opera in Torino, provincia e nel resto del nord Italia",
 				       cl: "home",
 				       id: "home",
 				       body: view });
@@ -68,5 +68,22 @@ module.exports.stampato = function *stampato(ctx) {
 				       description: "Leader nel settore delle pavimentazioni in cemento stampato",
 				       cl: "home",
 				       id: "stampato",
+				       body: view });
+};
+
+module.exports.stampato = function *tradizionale(ctx) {
+  var works = { "work":[
+    {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento3-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento4-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento5-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento6-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"}
+  ]}
+  var view = yield render('tradizionale',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento tradizionale a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni in calcestruzzo lisciato con indurenti al quarzo",
+				       cl: "home",
+				       id: "tradizionale",
 				       body: view });
 };
