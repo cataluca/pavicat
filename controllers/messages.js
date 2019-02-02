@@ -115,3 +115,19 @@ module.exports.sassolavato = function *sassolavato(ctx) {
 				       id: "sassolavato",
 				       body: view });
 };
+
+module.exports.rampa = function *rampa(ctx) {
+  var works = { "work":[
+    {"img":"Rampa1-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
+    {"img":"Rampa2-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
+    {"img":"Rampa3-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
+    {"img":"Rampa4-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
+    {"img":"Rampa5-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"}
+  ]}
+  var view = yield render('rampa',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Rampe in cemento a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle rampe in calcestruzzo lavorate a spina di pesce o pettinata",
+				       cl: "home",
+				       id: "rampa",
+				       body: view });
+};

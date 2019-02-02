@@ -18,6 +18,7 @@ app.use(route.get('/pavimenti-cemento-stampato', messages.stampato));
 app.use(route.get('/pavimenti-cemento-tradizionale', messages.tradizionale));
 app.use(route.get('/pavimenti-cemento-acidificato', messages.acidificato));
 app.use(route.get('/pavimenti-cemento-sasso-lavato', messages.sassolavato));
+app.use(route.get('/rampe-cemento', messages.rampa));
 
 // app.use(route.get('/messages', messages.list));
 // app.use(route.get('/messages/:id', messages.fetch));
