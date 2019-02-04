@@ -131,3 +131,17 @@ module.exports.rampa = function *rampa(ctx) {
 				       id: "rampa",
 				       body: view });
 };
+
+module.exports.resina = function *resina(ctx) {
+  var works = { "work":[
+    {"img":"resina1.jpg","type":"resina","title":"Pavimento in resina"},
+    {"img":"resina2.jpg","type":"resina","title":"Pavimento in resina"},
+    {"img":"resina3.jpg","type":"resina","title":"Pavimento in resina"}
+  ]}
+  var view = yield render('resina',{works:works});
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in gresina a Torino, Milano e nord Italia", 
+				       description: "Leader nel settore delle pavimentazioni in calcestruzzo resina",
+				       cl: "home",
+				       id: "resina",
+				       body: view });
+};
