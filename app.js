@@ -21,11 +21,12 @@ app.use(route.get('/pavimenti-cemento-sasso-lavato', messages.sassolavato));
 app.use(route.get('/pavimenti-resina', messages.resina));
 app.use(route.get('/rampe-cemento', messages.rampa));
 
-// app.use(route.get('/messages', messages.list));
-// app.use(route.get('/messages/:id', messages.fetch));
-// app.use(route.post('/messages', messages.create));
-// app.use(route.get('/async', messages.delay));
-// app.use(route.get('/promise', messages.promise));
+
+app.use(route.get('/test', messages.test));
+app.use(route.get('/test/about', messages.about));
+app.use(route.get('/test/single', messages.about));
+app.use(route.get('/test/service-item', messages.serviceItem));
+
 
 // Serve static files
 app.use(serve(path.join(__dirname, 'public')));
