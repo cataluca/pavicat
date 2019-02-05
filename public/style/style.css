@@ -11,7 +11,11 @@
   .site-branding .site-title.title-image img {
     max-height: 30px;
   }
+  .main-navigation #primary-menu {
+    max-height: 600px;
+  }
 }
+
 .blog-entry a {
   color: #000;
 }
