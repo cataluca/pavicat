@@ -1,0 +1,11 @@
+<div class="row">
+  <% services.service.slice(1,4).forEach(function(service) { %>
+      <% include service.html %>
+  <% }); %>
+</div><!-- .row -->
+
+<div class="row">
+  <% services.service.slice(4).forEach(function(service) { %>
+      <% include service.html %>
+  <% }); %>
+</div><!-- .row -->

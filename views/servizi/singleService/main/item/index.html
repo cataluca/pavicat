@@ -1,0 +1,17 @@
+<div class="row">
+  <% items.item.slice(0,2).forEach(function(item) { %>
+  <% include item.html %>
+  <% }); %>
+</div><!-- .row -->
+	    
+<div class="row">
+  <% items.item.slice(2,4).forEach(function(item) { %>
+  <% include item.html %>
+  <% }); %>
+</div><!-- .row -->
+
+<div class="row">
+  <% items.item.slice(4).forEach(function(item) { %>
+  <% include item.html %>
+  <% }); %>
+</div><!-- .row -->

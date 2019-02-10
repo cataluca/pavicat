@@ -13,19 +13,22 @@ const app = module.exports = koa();
 app.use(logger());
 
 app.use(route.get('/', messages.home));
-app.use(route.get('/pavimenti-stampato', messages.stampato)); // old
-app.use(route.get('/pavimenti-cemento-stampato', messages.stampato));
-app.use(route.get('/pavimenti-cemento-tradizionale', messages.tradizionale));
-app.use(route.get('/pavimenti-cemento-acidificato', messages.acidificato));
-app.use(route.get('/pavimenti-cemento-sasso-lavato', messages.sassolavato));
-app.use(route.get('/pavimenti-resina', messages.resina));
-app.use(route.get('/rampe-cemento', messages.rampa));
+app.use(route.get('/servizi', messages.servizi));
+
+app.use(route.get('/servizi/pavimenti-stampato', messages.stampato)); // old
+app.use(route.get('/servizi/pavimenti-cemento-stampato', messages.stampato));
+app.use(route.get('/servizi/pavimenti-cemento-tradizionale', messages.tradizionale));
+app.use(route.get('/servizi/pavimenti-cemento-acidificato', messages.acidificato));
+app.use(route.get('/servizi/pavimenti-cemento-sasso-lavato', messages.sassolavato));
+app.use(route.get('/servizi/pavimenti-resina', messages.resina));
+app.use(route.get('/servizi/rampe-cemento', messages.rampa));
 
 
 app.use(route.get('/test', messages.test));
 app.use(route.get('/test/about', messages.about));
 app.use(route.get('/test/single', messages.about));
 app.use(route.get('/test/service-item', messages.serviceItem));
+app.use(route.get('/test/service', messages.service));
 
 
 // Serve static files

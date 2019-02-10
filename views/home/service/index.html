@@ -3,95 +3,9 @@
 <div id="service" class="service content-section bg-white">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-	    <a href="/pavimenti-cemento-tradizionale"><h2 class="entry-title">Pavimenti in cemento tradizionale</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/pavimenti-cemento-tradizionale" class="blog-entry-thumbnail">
-            <img src="/image/home/service/calcestruzzo.jpg" alt="Pavimentazioni in calcestruzzo" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.</p>
-            <!-- <p><a href="#" class="read-more">Read more &#43;</a></p> -->
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-            <a href="/pavimenti-cemento-stampato"><h2 class="entry-title">Pavimenti in cemento stampato</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/pavimenti-cemento-stampato" class="blog-entry-thumbnail">
-            <img src="/image/home/service/stampati.jpg" alt="Pavimenti stampati" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.</p>
-            <!-- <p><a href="#" class="read-more">Read more &#43;</a></p> -->
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-	    <a href="/pavimenti-cemento-acidificato"><h2 class="entry-title">Pavimenti in cemento acidificato</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/pavimenti-cemento-acidificato" class="blog-entry-thumbnail">
-            <img src="/image/home/service/acidificato1.jpg" alt="Pavimentazioni Acidificate" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.</p>
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-            <a href="/rampe-cemento"><h2 class="entry-title">Rampe in cemento antiscivolo</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/rampe-cemento" class="blog-entry-thumbnail">
-            <img src="/image/home/service/spinata.jpg" alt="Rampe antiscivolo" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.</p>
-            <!-- <p><a href="#" class="read-more">Read more &#43;</a></p> -->
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-            <a href="/pavimenti-cemento-sasso-lavato"><h2 class="entry-title">Pavimenti in cemento sasso lavato</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/pavimenti-cemento-sasso-lavato" class="blog-entry-thumbnail">
-            <img src="/image/home/service/lavato.jpg" alt="Pavimenti in sasso lavato" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>Pavimentazione naturale, di grande effetto estetico e particolarmente resistente.</p>
-            <!-- <p><a href="#" class="read-more">Read more &#43;</a></p> -->
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-
-      <div class="col-md-4">
-        <div class="blog-entry">
-          <div class="blog-entry-header">
-            <a href="/pavimenti-resina"><h2 class="entry-title">Pavimenti in resina</h2></a>
-          </div><!-- .blog-entry-header -->
-	  <a href="/pavimenti-resina" class="blog-entry-thumbnail">
-            <img src="/image/home/service/resina.jpg" alt="Pavimenti in resina" class="img-responsive">
-          </a>
-          <div class="blog-entry-content">
-            <p>Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.</p>
-            <!-- <p><a href="#" class="read-more">Read more &#43;</a></p> -->
-          </div><!-- .blog-entry-content -->
-        </div><!-- .blog-entry -->
-      </div><!-- .col-md-4 -->
-     
+      <% services.service.slice(1).forEach(function(service,i) { %>
+        <% include service.html %>
+      <% }); %>     
     </div><!-- .row -->
   </div><!-- container -->
 </div><!-- #service -->
