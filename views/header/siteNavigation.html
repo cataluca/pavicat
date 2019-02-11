@@ -16,15 +16,15 @@
             <div class="menu-testing-menu-container">
               <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                 <li class="menu-item"><a href="/#top" onclick="window.location.reload(true);">Home</a></li>
-                <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="/servizi" onclick="window.location.reload(true);">Servizi</a>
+                <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="/servizi">Servizi</a>
                   <ul class="sub-menu">
 		    <% services.service.forEach(function(service) { %>
-		      <li class="menu-item"><a href="<%= service.link %>" onclick="window.location.reload(true);"><%= service.title %></a></li>
+		      <li class="menu-item"><a href="<%= service.link %>"><%= service.title %></a></li>
 		    <% }); %>     
                   </ul>
                 </li>
-		<li class="menu-item"><a href="/#azienda" onclick="window.location.reload(true);">Azienda</a></li>
-                <li class="menu-item"><a href="/#contatti" onclick="window.location.reload(true);">Contatti</a></li>
+		<li class="menu-item"><a href="/#azienda">Azienda</a></li>
+                <li class="menu-item"><a href="/#contatti">Contatti</a></li>
               </ul>
             </div>
           </nav><!-- #site-navigation -->
