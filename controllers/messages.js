@@ -56,8 +56,8 @@ module.exports.home = function *home(ctx) {
     {"img":"unical.jpg","title":"unical"}
   ]}
   var view = yield render('home/index',{works:works, clients:clients, services:services, page: "Home"});
-  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti e rampe in cemento tradizionale, cemento stampato e in resina - Torino, Milano e nord Italia", 
-				       description: "Leader nel settore delle pavimentazioni e rampe veicolari in calcestruzzo tradizionale, stampato, acidificato e in resina. Opera in Torino, provincia e nel resto del nord Italia",
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti industriali e civili in cemento e in resina. Rampe veicolari in cemento. A Torino, Milano e nel resto del nord Italia.", 
+				       description: "Leader nel settore delle pavimentazioni in calcestruzzo di tipo elicotterato, stampato, acidificato, sasso lavato, levigato e lucidato. Specializzati anche nei trattamenti in resina.",
 				       cl: "home",
 				       id: "home",
 				       body: view });
@@ -81,8 +81,8 @@ module.exports.servizi = function *servizi(ctx) {
 					    page:"Servizi",
 					    services:services });
   
-  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti e rampe in cemento tradizionale, cemento stampato e in resina - Torino, Milano e nord Italia", 
-				       description: "Leader nel settore delle pavimentazioni e rampe veicolari in calcestruzzo tradizionale, stampato, acidificato e in resina. Opera in Torino, provincia e nel resto del nord Italia", 
+  this.body = yield render('layout', { title: "Pavicat di Catalano - I nostri servizi: Pavimenti industriali e civili in cemento e in resina. Rampe veicolari in cemento", 
+				       description: "Pavimentazioni in calcestruzzo di tipo elicotterato, stampato, acidificato, sasso lavato, levigato e lucidato. Trattamenti in resina.", 
 				       cl: "",
 				       id: "servizi",
 				       body: view });
@@ -144,7 +144,7 @@ module.exports.tradizionale = function *tradizionale(ctx) {
 							  services: services, 
 							  items: items });
   
-  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento tradizionale a Torino, Milano e nord Italia", 
+  this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento elicotterato a Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni in calcestruzzo lisciato con indurenti al quarzo",
 				       cl: "",
 				       id: "tradizionale",
