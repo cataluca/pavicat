@@ -3,9 +3,16 @@
 <div id="service" class="service content-section bg-white">
   <div class="container">
     <div class="row">
-      <% services.service.slice(1).forEach(function(service,i) { %>
+      <% services.service.slice(1,6).forEach(function(service,i) { %>
         <% include service.html %>
-      <% }); %>     
+      <% }); %>
+      <div class="col-md-4">
+	<ul class="blog-entry-list" style="margin-top:57px;">
+	  <% services.service.slice(6).forEach(function(service,i) { %>
+	  <% include serviceSmall.html %>
+	  <% }); %>     
+	</ul><!-- .blog-entry-list -->
+      </div><!-- .col-md-4 -->
     </div><!-- .row -->
   </div><!-- container -->
 </div><!-- #service -->

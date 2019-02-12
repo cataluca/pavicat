@@ -20,6 +20,7 @@ app.use(route.get('/servizi/pavimenti-cemento-stampato', messages.stampato));
 app.use(route.get('/servizi/pavimenti-cemento-tradizionale', messages.tradizionale));
 app.use(route.get('/servizi/pavimenti-cemento-acidificato', messages.acidificato));
 app.use(route.get('/servizi/pavimenti-cemento-sasso-lavato', messages.sassolavato));
+app.use(route.get('/servizi/pavimenti-cemento-levigato-lucidato', messages.levigato));
 app.use(route.get('/servizi/pavimenti-resina', messages.resina));
 app.use(route.get('/servizi/rampe-cemento', messages.rampa));
 
