@@ -33,7 +33,7 @@ app.use(route.get('/test/service', messages.service));
 
 
 // Serve static files
-app.use(serve(path.join(__dirname, 'public')));
+app.use(serve(path.join(__dirname, 'public'), { hidden: true }));
 
 // Compress
 app.use(compress());
