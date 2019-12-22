@@ -35,9 +35,9 @@ module.exports.home = function *home(ctx) {
     {"img":"lavato1.jpg","type":"lavato","title":"Pavimento in cemento sasso lavato"},
     {"img":"lavato2.jpg","type":"lavato","title":"Pavimento in cemento sasso lavato"},
     {"img":"lavato4.jpg","type":"lavato","title":"Pavimento in cemento sasso lavato"},
-    {"img":"acidificato1.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"},
-    {"img":"acidificato2.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"},
-    {"img":"acidificato3.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"}
+    {"img":"Acidificato1-830x620.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"},
+    {"img":"Acidificato2-830x620.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"},
+    {"img":"Acidificato3-830x620.jpg","type":"acidificato","title":"Pavimento in cemento acidificato"}
   ]}
 
   var services = { "service":[
@@ -104,7 +104,7 @@ module.exports.stampato = function *stampato(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"on"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
   
   var items = { "item":[
@@ -134,7 +134,7 @@ module.exports.tradizionale = function *tradizionale(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
   
   var items = { "item":[
@@ -167,13 +167,13 @@ module.exports.acidificato = function *acidificato(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"on"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"on"}
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/acidificato1.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Il lavoro finito trasforma il calcestruzzo in una bellezza ricca e naturale. Effetto scenico, aspetto moderno, praticità di pulizia e manutenzione sono le caratteristiche principali di questa pavimentazione."},
-    {"img":"/image/home/work/acidificato2.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Ideale per chi vuole realizzare una superficie di tendenza, molto bella e resistente; perfetto per show room, centri commerciali e anche abitazioni private."},
-    {"img":"/image/home/work/acidificato3.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Viene realizzato mediante l’utilizzo di particolari acidi a base di sali metallici che penetrano nel calcestruzzo e ne cambiano chimicamente la tonalità per produrre effetti di colore unici, permanenti, variegati e traslucidi."}
+    {"img":"/image/home/work/Acidificato1-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Il lavoro finito trasforma il calcestruzzo in una bellezza ricca e naturale. Effetto scenico, aspetto moderno, praticità di pulizia e manutenzione sono le caratteristiche principali di questa pavimentazione."},
+    {"img":"/image/home/work/Acidificato2-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Ideale per chi vuole realizzare una superficie di tendenza, molto bella e resistente; perfetto per show room, centri commerciali e anche abitazioni private."},
+    {"img":"/image/home/work/Acidificato3-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Viene realizzato mediante l’utilizzo di particolari acidi a base di sali metallici che penetrano nel calcestruzzo e ne cambiano chimicamente la tonalità per produrre effetti di colore unici, permanenti, variegati e traslucidi."}
   ]}
 
   var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI ACIDIFICATI",
@@ -197,7 +197,7 @@ module.exports.sassolavato = function *sassolavato(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"on"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
 
   var items = { "item":[
@@ -227,7 +227,7 @@ module.exports.rampa = function *rampa(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
 
   var items = { "item":[
@@ -258,7 +258,7 @@ module.exports.resina = function *resina(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"off"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
 
   var items = { "item":[
@@ -288,7 +288,7 @@ module.exports.levigato = function *levigato(ctx) {
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
     {"title":"Pavimenti in cemento levigato e lucidato", "img":"/image/home/service/levigato.jpg", "desc":"Un pavimento con una resistenza all’abrasione elevatissima, traspirabile, con una superficie lucida come il vetro, antiscivolo e di facile pulizia con macchine lava asciuga.", "link":"/servizi/pavimenti-cemento-levigato-lucidato", "status":"on"},
     {"title":"Pavimenti in cemento sasso lavato", "img":"/image/home/service/lavato.jpg", "desc":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata.", "link":"/servizi/pavimenti-cemento-sasso-lavato", "status":"off"},
-    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/acidificato1.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
+    {"title":"Pavimenti in cemento acidificato", "img":"/image/home/service/Acidificato1-830x620.jpg", "desc":"La soluzione migliore per negozi, uffici, centri commerciali e tavernette. Grazie all'utilizzo di specifici acidi si ottengono pavimentazioni in calcestruzzo con particolari sfumature e effetti cromatici.", "link":"/servizi/pavimenti-cemento-acidificato", "status":"off"}
   ]}
 
   var items = { "item":[
