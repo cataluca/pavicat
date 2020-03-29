@@ -8,12 +8,12 @@ const render = views(__dirname + '/../views', {
 
 module.exports.home = function *home(ctx) {
   var works = { "work":[
-    {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
-    {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
-    {"img":"PavCemento3-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
-    // {"img":"PavCemento4-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
-    // {"img":"PavCemento5-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
-    // {"img":"PavCemento6-830x620.jpg","type":"pav","title":"Pavimento in cemento tradizionale"},
+    {"img":"PavCemento1-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
+    {"img":"PavCemento2-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
+    {"img":"PavCemento3-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
+    // {"img":"PavCemento4-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
+    // {"img":"PavCemento5-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
+    // {"img":"PavCemento6-830x620.jpg","type":"pav","title":"Pavimento in cemento elicotterato"},
     {"img":"Rampa1-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
     {"img":"Rampa2-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
     {"img":"Rampa3-830x620.jpg","type":"rampe","title":"Rampa antiscivolo"},
@@ -42,7 +42,7 @@ module.exports.home = function *home(ctx) {
 
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo.", "link":"/servizi/pavimenti-cemento-tradizionale"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo.", "link":"/servizi/pavimenti-cemento-elicotterato"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato"},
@@ -73,7 +73,7 @@ module.exports.home = function *home(ctx) {
 module.exports.servizi = function *servizi(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"on"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -98,7 +98,7 @@ module.exports.servizi = function *servizi(ctx) {
 module.exports.stampato = function *stampato(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"on"},
@@ -125,10 +125,10 @@ module.exports.stampato = function *stampato(ctx) {
 				       body: view });
 };
 
-module.exports.tradizionale = function *tradizionale(ctx) {
+module.exports.elicotterato = function *elicotterato(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"on"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"on"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -138,30 +138,30 @@ module.exports.tradizionale = function *tradizionale(ctx) {
   ]}
   
   var items = { "item":[
-    {"img":"/image/home/work/PavCemento1-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":"Il cemento armato lavorato con indurente al quarzo, è composto principalmente da cemento, acqua ed inerti miscelati tra di loro in dosi corrette, il risultato è molto resistente con un ottimo livello di permeabilità."},
-    {"img":"/image/home/work/PavCemento2-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":"Ha diversi utilizzi nel settore dell’edilizia per le sue caratteristiche di resistenza e durezza."},
-    {"img":"/image/home/work/PavCemento3-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":"Consigliamo questa tipologia di pavimentazione per infrastrutture, grandi opere, aree industriali, magazzini, piazzali, parcheggi e altre tipi di superfici che necessitano di basi d’appoggio sicure e forti."},
-    {"img":"/image/home/work/PavCemento4-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":"Ci operiamo per garantire al cliente il miglior risultato funzionale con finiture superficiali di alta qualità meccanica con possibilità di scelta di differenti colorazioni sia per la lavorazione a spolvero che a pastina."},
-    {"img":"/image/home/work/PavCemento5-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":""},
-    {"img":"/image/home/work/PavCemento6-830x620.jpg","type":"pav","alt":"Pavimento in cemento tradizionale", "text":""}
+    {"img":"/image/home/work/PavCemento1-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Il cemento armato lavorato con indurente al quarzo, è composto principalmente da cemento, acqua ed inerti miscelati tra di loro in dosi corrette, il risultato è molto resistente con un ottimo livello di permeabilità."},
+    {"img":"/image/home/work/PavCemento2-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ha diversi utilizzi nel settore dell’edilizia per le sue caratteristiche di resistenza e durezza."},
+    {"img":"/image/home/work/PavCemento3-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Consigliamo questa tipologia di pavimentazione per infrastrutture, grandi opere, aree industriali, magazzini, piazzali, parcheggi e altre tipi di superfici che necessitano di basi d’appoggio sicure e forti."},
+    {"img":"/image/home/work/PavCemento4-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ci operiamo per garantire al cliente il miglior risultato funzionale con finiture superficiali di alta qualità meccanica con possibilità di scelta di differenti colorazioni sia per la lavorazione a spolvero che a pastina."},
+    {"img":"/image/home/work/PavCemento5-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""},
+    {"img":"/image/home/work/PavCemento6-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""}
   ]}
   
-  var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI IN CEMENTO TRADIZIONALE",
-							  page: "Tradizionale",
+  var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI IN CEMENTO ELICOTTERATO",
+							  page: "Elicotterato",
 							  services: services, 
 							  items: items });
   
   this.body = yield render('layout', { title: "Pavicat di Catalano - Pavimenti in cemento elicotterato a Torino, Milano e nord Italia", 
 				       description: "Leader nel settore delle pavimentazioni in calcestruzzo lisciato con indurenti al quarzo",
 				       cl: "",
-				       id: "tradizionale",
+				       id: "elicotterato",
 				       body: view });
 };
 
 module.exports.acidificato = function *acidificato(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -191,7 +191,7 @@ module.exports.acidificato = function *acidificato(ctx) {
 module.exports.sassolavato = function *sassolavato(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -221,7 +221,7 @@ module.exports.sassolavato = function *sassolavato(ctx) {
 module.exports.rampa = function *rampa(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"on"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -252,7 +252,7 @@ module.exports.rampa = function *rampa(ctx) {
 module.exports.resina = function *resina(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"on"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},
@@ -282,7 +282,7 @@ module.exports.resina = function *resina(ctx) {
 module.exports.levigato = function *levigato(ctx) {
   var services = { "service":[
     {"title":"Tutti i servizi", "img":"", "desc":"", "link":"/servizi", "status":"off"},
-    {"title":"Pavimenti in cemento tradizionale", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-tradizionale", "status":"off"},
+    {"title":"Pavimenti in cemento elicotterato", "img":"/image/home/service/calcestruzzo.jpg", "desc":"Uniscono praticità d'uso e gradevole effetto estetico. Hanno un'elevata resistenza all'usura, all'urto e lunga durata nel tempo. Ideali per capannoni industriali, cortili, box e cantine.", "link":"/servizi/pavimenti-cemento-elicotterato", "status":"off"},
     {"title":"Rampe in cemento antiscivolo", "img":"/image/home/service/spinata.jpg", "desc":"La miglior soluzione per funzionalità e aspetto estetico. Realizzate in calcestruzzo lavorato in modo 'pettinato' o 'spina di pesce'.", "link":"/servizi/rampe-cemento", "status":"off"},
     {"title":"Pavimenti in resina", "img":"/image/home/service/resina.jpg", "desc":"Particolarmente indicato per realizzare superfici di notevole valore architettonico ed estetico. Ideale per locali commerciali e interni abitativi.", "link":"/servizi/pavimenti-resina", "status":"off"},
     {"title":"Pavimenti in cemento stampato", "img":"/image/home/service/stampati.jpg", "desc":"Una novità nel campo dell'edilizia, adatto per la ricreazione di pietre naturali, marmi e roccia. Ideale per piscine, giardini, viali e corsie di varie dimensioni.", "link":"/servizi/pavimenti-cemento-stampato", "status":"off"},

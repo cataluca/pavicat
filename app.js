@@ -17,7 +17,10 @@ app.use(route.get('/servizi', messages.servizi));
 
 app.use(route.get('/servizi/pavimenti-stampato', messages.stampato)); // old
 app.use(route.get('/servizi/pavimenti-cemento-stampato', messages.stampato));
-app.use(route.get('/servizi/pavimenti-cemento-tradizionale', messages.tradizionale));
+
+app.use(route.get('/servizi/pavimenti-cemento-tradizionale', messages.elicotterato)); //old
+app.use(route.get('/servizi/pavimenti-cemento-elicotterato', messages.elicotterato));
+
 app.use(route.get('/servizi/pavimenti-cemento-acidificato', messages.acidificato));
 app.use(route.get('/servizi/pavimenti-cemento-sasso-lavato', messages.sassolavato));
 app.use(route.get('/servizi/pavimenti-cemento-levigato-lucidato', messages.levigato));
