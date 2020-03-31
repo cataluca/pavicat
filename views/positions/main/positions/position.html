@@ -1,0 +1,14 @@
+<% if(position.status === "on") { %>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="blog-entry">
+      <div class="blog-entry-header">
+	<h2 class="entry-title"><%= position.title %></h2>
+      </div><!-- .blog-entry-header -->      
+      <div class="blog-entry-content">
+	<p><%- position.description %></p>
+      </div><!-- .blog-entry-content -->
+    </div><!-- .blog-entry -->
+  </div><!-- .col-## -->
+</div><!-- .row -->      
+<% } %>

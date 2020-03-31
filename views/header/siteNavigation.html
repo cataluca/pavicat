@@ -15,16 +15,25 @@
 
             <div class="menu-testing-menu-container">
               <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
-                <li class="menu-item"><a href="/#top">Home</a></li>
-                <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="/servizi">Servizi</a>
+                
+		<li class="menu-item"><a href="/#top">Home</a></li>
+                
+		<li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="/servizi">Servizi</a>
                   <ul class="sub-menu">
 		    <% services.service.forEach(function(service) { %>
 		      <li class="menu-item"><a href="<%= service.link %>"><%= service.title %></a></li>
 		    <% }); %>     
                   </ul>
                 </li>
-		<li class="menu-item"><a href="/#azienda">Azienda</a></li>
-                <li class="menu-item"><a href="/#contatti">Contatti</a></li>
+
+		<li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="/#azienda">Azienda</a>
+                  <ul class="sub-menu">
+		    <li class="menu-item"><a href="/#azienda">Chi siamo</a></li>
+		    <li class="menu-item"><a href="/lavora-con-noi">Lavora con noi</a></li>
+                  </ul>
+                </li>
+                
+		<li class="menu-item"><a href="/#contatti">Contatti</a></li>
               </ul>
             </div>
           </nav><!-- #site-navigation -->
