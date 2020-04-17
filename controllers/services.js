@@ -44,10 +44,10 @@ module.exports.stampato = function *stampato(ctx) {
   ]}
   
   var items = { "item":[
-    {"img":"/image/home/work/Stampato1-830x620.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Grazie a questa tipologia di pavimento si ottiene una superficie che mantiene la stessa praticità del calcestruzzo ma trasformata in un'opera di particolare bellezza che propone l'estetica della roccia, della ceramica, della pietra naturale, dei mattoni e anche del legno."},
-    {"img":"/image/home/work/Stampato2-830x620.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Si ottiene una superficie monolitica, quindi non a rischio avvallamenti e assestamenti, che richiede pochissima manutenzione nel corso degli anni."},
-    {"img":"/image/home/work/Stampato4-830x620.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Pavimento in cemento stampato", "text":"Ogni pavimentazione è un'opera unica e originale, si possono utilizzare differenti colorazioni e decorazioni allo scopo di ottenere un risultato che soddisfi a pieno le esigenze, i gusti e la personalità del cliente."},
-    {"img":"/image/home/work/Stampato5-830x620.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":""},
+    {"img":"/image/home/work/Stampato1.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Grazie a questa tipologia di pavimento si ottiene una superficie che mantiene la stessa praticità del calcestruzzo ma trasformata in un'opera di particolare bellezza che propone l'estetica della roccia, della ceramica, della pietra naturale, dei mattoni e anche del legno."},
+    {"img":"/image/home/work/Stampato2.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Si ottiene una superficie monolitica, quindi non a rischio avvallamenti e assestamenti, che richiede pochissima manutenzione nel corso degli anni."},
+    {"img":"/image/home/work/Stampato4.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":"Pavimento in cemento stampato", "text":"Ogni pavimentazione è un'opera unica e originale, si possono utilizzare differenti colorazioni e decorazioni allo scopo di ottenere un risultato che soddisfi a pieno le esigenze, i gusti e la personalità del cliente."},
+    {"img":"/image/home/work/Stampato5.jpg","type":"stampati","alt":"Pavimento in cemento stampato", "text":""},
   ]}
 
   var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI IN CEMENTO STAMPATO",
@@ -74,12 +74,12 @@ module.exports.elicotterato = function *elicotterato(ctx) {
   ]}
   
   var items = { "item":[
-    {"img":"/image/home/work/PavCemento1-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Il cemento armato lavorato con indurente al quarzo, è composto principalmente da cemento, acqua ed inerti miscelati tra di loro in dosi corrette, il risultato è molto resistente con un ottimo livello di permeabilità."},
-    {"img":"/image/home/work/PavCemento2-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ha diversi utilizzi nel settore dell’edilizia per le sue caratteristiche di resistenza e durezza."},
-    {"img":"/image/home/work/PavCemento3-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Consigliamo questa tipologia di pavimentazione per infrastrutture, grandi opere, aree industriali, magazzini, piazzali, parcheggi e altre tipi di superfici che necessitano di basi d’appoggio sicure e forti."},
-    {"img":"/image/home/work/PavCemento4-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ci operiamo per garantire al cliente il miglior risultato funzionale con finiture superficiali di alta qualità meccanica con possibilità di scelta di differenti colorazioni sia per la lavorazione a spolvero che a pastina."},
-    {"img":"/image/home/work/PavCemento5-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""},
-    {"img":"/image/home/work/PavCemento6-830x620.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""}
+    {"img":"/image/home/work/PavCemento1.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Il cemento armato lavorato con indurente al quarzo, è composto principalmente da cemento, acqua ed inerti miscelati tra di loro in dosi corrette, il risultato è molto resistente con un ottimo livello di permeabilità."},
+    {"img":"/image/home/work/PavCemento2.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ha diversi utilizzi nel settore dell’edilizia per le sue caratteristiche di resistenza e durezza."},
+    {"img":"/image/home/work/PavCemento3.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Consigliamo questa tipologia di pavimentazione per infrastrutture, grandi opere, aree industriali, magazzini, piazzali, parcheggi e altre tipi di superfici che necessitano di basi d’appoggio sicure e forti."},
+    {"img":"/image/home/work/PavCemento4.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":"Ci operiamo per garantire al cliente il miglior risultato funzionale con finiture superficiali di alta qualità meccanica con possibilità di scelta di differenti colorazioni sia per la lavorazione a spolvero che a pastina."},
+    {"img":"/image/home/work/PavCemento5.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""},
+    {"img":"/image/home/work/PavCemento6.jpg","type":"pav","alt":"Pavimento in cemento elicotterato", "text":""}
   ]}
   
   var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI IN CEMENTO ELICOTTERATO",
@@ -107,9 +107,9 @@ module.exports.acidificato = function *acidificato(ctx) {
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/Acidificato1-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Il lavoro finito trasforma il calcestruzzo in una bellezza ricca e naturale. Effetto scenico, aspetto moderno, praticità di pulizia e manutenzione sono le caratteristiche principali di questa pavimentazione."},
-    {"img":"/image/home/work/Acidificato2-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Ideale per chi vuole realizzare una superficie di tendenza, molto bella e resistente; perfetto per show room, centri commerciali e anche abitazioni private."},
-    {"img":"/image/home/work/Acidificato3-830x620.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Viene realizzato mediante l’utilizzo di particolari acidi a base di sali metallici che penetrano nel calcestruzzo e ne cambiano chimicamente la tonalità per produrre effetti di colore unici, permanenti, variegati e traslucidi."}
+    {"img":"/image/home/work/Acidificato1.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Il lavoro finito trasforma il calcestruzzo in una bellezza ricca e naturale. Effetto scenico, aspetto moderno, praticità di pulizia e manutenzione sono le caratteristiche principali di questa pavimentazione."},
+    {"img":"/image/home/work/Acidificato2.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Ideale per chi vuole realizzare una superficie di tendenza, molto bella e resistente; perfetto per show room, centri commerciali e anche abitazioni private."},
+    {"img":"/image/home/work/Acidificato3.jpg","type":"acidificato","alt":"Pavimento acidificato", "text":"Viene realizzato mediante l’utilizzo di particolari acidi a base di sali metallici che penetrano nel calcestruzzo e ne cambiano chimicamente la tonalità per produrre effetti di colore unici, permanenti, variegati e traslucidi."}
   ]}
 
   var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI ACIDIFICATI",
@@ -137,9 +137,9 @@ module.exports.sassolavato = function *sassolavato(ctx) {
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/lavato1.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata."},
-    {"img":"/image/home/work/lavato2.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Consigliamo questa soluzione per piazze, marciapiedi, aree pedonali, piscine, terrazze e viali in parchi e giardini. Le principali caratteristiche sono: praticità, sicurezza, resistenza e antisdrucciolo."},
-    {"img":"/image/home/work/lavato4.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Abbiamo la possibilità di realizzare diverse configurazioni con tipologie e colorazioni a scelta del cliente. E’ la migliore alternativa alla ghiaia per manutenzione e costi ridotti, elimina il problema delle erbe infestanti e la necessità di ricomporre i ciottoli che presentano problematiche col tempo"}
+    {"img":"/image/home/work/Lavato1.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Particolare pavimentazione ottenuta mescolando al cemento: sassi di fiume o pietra naturale, graniglia di marmi e una miscela fibrorinforzata colorata e additivata."},
+    {"img":"/image/home/work/Lavato2.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Consigliamo questa soluzione per piazze, marciapiedi, aree pedonali, piscine, terrazze e viali in parchi e giardini. Le principali caratteristiche sono: praticità, sicurezza, resistenza e antisdrucciolo."},
+    {"img":"/image/home/work/Lavato4.jpg","type":"lavato","alt":"Pavimento in sasso lavato", "text":"Abbiamo la possibilità di realizzare diverse configurazioni con tipologie e colorazioni a scelta del cliente. E’ la migliore alternativa alla ghiaia per manutenzione e costi ridotti, elimina il problema delle erbe infestanti e la necessità di ricomporre i ciottoli che presentano problematiche col tempo"}
   ]}
   
   var view = yield render('servizi/singleService/index',{ titlePage: "PAVIMENTI IN SASSO LAVATO",
@@ -167,11 +167,11 @@ module.exports.rampa = function *rampa(ctx) {
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/Rampa1-830x620.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Per le caratteristiche di robustezza e resistenza nel tempo, le rampe di accesso veicolare si realizzano comunemente in calcestruzzo."},
-    {"img":"/image/home/work/Rampa2-830x620.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Due tipi di finiture: pettinata e a spina di pesce. Quest’ultima si realizza incidendo a fresco lo strato di quarzo-cemento con degli stampi appositi, la superficie che si ottiene favorisce l’aderenza degli pneumatici anche in condizioni difficili."},
-    {"img":"/image/home/work/Rampa3-830x620.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"La tipologia pettinata è maggiormente consigliata per passaggi pedonali e carrozzine."},
-    {"img":"/image/home/work/Rampa4-830x620.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Le rampe in calcestruzzo sono utilizzate in abitazioni private, centri commerciali, garage, autosilo e industrie."},
-    {"img":"/image/home/work/Rampa5-830x620.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":""}
+    {"img":"/image/home/work/Rampa1.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Per le caratteristiche di robustezza e resistenza nel tempo, le rampe di accesso veicolare si realizzano comunemente in calcestruzzo."},
+    {"img":"/image/home/work/Rampa2.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Due tipi di finiture: pettinata e a spina di pesce. Quest’ultima si realizza incidendo a fresco lo strato di quarzo-cemento con degli stampi appositi, la superficie che si ottiene favorisce l’aderenza degli pneumatici anche in condizioni difficili."},
+    {"img":"/image/home/work/Rampa3.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"La tipologia pettinata è maggiormente consigliata per passaggi pedonali e carrozzine."},
+    {"img":"/image/home/work/Rampa4.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":"Le rampe in calcestruzzo sono utilizzate in abitazioni private, centri commerciali, garage, autosilo e industrie."},
+    {"img":"/image/home/work/Rampa5.jpg","type":"rampe","alt":"Rampa antiscivolo", "text":""}
   ]}
 
   var view = yield render('servizi/singleService/index',{ titlePage: "RAMPE ANTISCIVOLO",
@@ -198,9 +198,9 @@ module.exports.resina = function *resina(ctx) {
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/resina1.jpg","type":"resina","alt":"Pavimento in resina", "text":"Pavimenti specifici per richieste di alti standard, hanno svariate caratteristiche: resistenza chimica e all’usura, durevolezza  ed elasticità."},
-    {"img":"/image/home/work/resina2.jpg","type":"resina","alt":"Pavimento in resina", "text":"Il risultato sono superfici continue ed igieniche in conformità con le norme vigenti in ogni specifico settore. I trattamenti in resina sono adatti per superfici nuove o ammalorate  da recuperare."},
-    {"img":"/image/home/work/resina3.jpg","type":"resina","alt":"Pavimento in resina", "text":"Utilizziamo le migliori soluzioni tecnologiche, personalizzabili ed ecosostenibili con materiali privi di inquinanti e solventi."}
+    {"img":"/image/home/work/Resina1.jpg","type":"resina","alt":"Pavimento in resina", "text":"Pavimenti specifici per richieste di alti standard, hanno svariate caratteristiche: resistenza chimica e all’usura, durevolezza  ed elasticità."},
+    {"img":"/image/home/work/Resina2.jpg","type":"resina","alt":"Pavimento in resina", "text":"Il risultato sono superfici continue ed igieniche in conformità con le norme vigenti in ogni specifico settore. I trattamenti in resina sono adatti per superfici nuove o ammalorate  da recuperare."},
+    {"img":"/image/home/work/Resina3.jpg","type":"resina","alt":"Pavimento in resina", "text":"Utilizziamo le migliori soluzioni tecnologiche, personalizzabili ed ecosostenibili con materiali privi di inquinanti e solventi."}
   ]}
 
 
@@ -228,9 +228,9 @@ module.exports.levigato = function *levigato(ctx) {
   ]}
 
   var items = { "item":[
-    {"img":"/image/home/work/levigato1.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Processo di nobilitazione del pavimento nuovo o esistente, molto utilizzato in America, la superficie viene trattata e lavorata con appositi macchinari per la levigazione e con particolari silicati di litio che aumentano la durezza e la densità del cemento fino al 500%."},
-    {"img":"/image/home/work/levigato2.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Il risultato sarà un pavimento con una resistenza all’abrasione elevatissima, traspirabile e con una superficie lucida come il vetro di facile pulizia con macchine lava asciuga."},
-    {"img":"/image/home/work/levigato3.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Ideale per autosaloni, depositi, officine ma anche per il settore alimentare, della ristorazione e elettronica."}
+    {"img":"/image/home/work/Levigato1.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Processo di nobilitazione del pavimento nuovo o esistente, molto utilizzato in America, la superficie viene trattata e lavorata con appositi macchinari per la levigazione e con particolari silicati di litio che aumentano la durezza e la densità del cemento fino al 500%."},
+    {"img":"/image/home/work/Levigato2.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Il risultato sarà un pavimento con una resistenza all’abrasione elevatissima, traspirabile e con una superficie lucida come il vetro di facile pulizia con macchine lava asciuga."},
+    {"img":"/image/home/work/Levigato3.jpg","type":"levigato","alt":"Pavimento in cemento levigato e lucidato", "text":"Ideale per autosaloni, depositi, officine ma anche per il settore alimentare, della ristorazione e elettronica."}
   ]}
 
 
